@@ -4,22 +4,11 @@
   <meta charset="UTF-8">
   <title>Formulario / Logueo - Dulce&amp;Co</title>
   <link rel="stylesheet" href="../assets/style.css">
-
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="../index.html">Bienvenida</a></li>
-      <li><a href="productos.html">Productos</a></li>
-      <li><a href="quienes.html">Quiénes Somos</a></li>
-      <li><a href="formulario.html">Formulario / Logueo</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="registro.html">Registro</a></li>
+  <nav></nav>
 
-    </ul>
-  </nav>
-
-   <section class="formulario">
+  <section class="formulario">
     <h1>Formulario de Logueo</h1>
     <form>
       <label for="usuario">Usuario o Nombre:</label>
@@ -34,5 +23,14 @@
       <button type="submit">Enviar</button>
     </form>
   </section>
+
+  <!-- navbar -->
+  <script type="module">
+    import { loadNavbar } from "../assets/js/navbar.js";
+    loadNavbar();
+  </script>
+
+  <!-- login -->
+  <script src="../assets/js/login.js"></script>
 </body>
 </html>

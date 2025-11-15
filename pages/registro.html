@@ -8,16 +8,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav>
-    <ul>
-      <li><a href="../index.html">Bienvenida</a></li>
-      <li><a href="productos.html">Productos</a></li>
-      <li><a href="quienes.html">Quiénes Somos</a></li>
-      <li><a href="formulario.html">Formulario / Logueo</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="registro.html">Registro</a></li>
-    </ul>
-  </nav>
+  <nav> </nav>
 
   <section class="registro">
     <h1>Registro de Usuario</h1>
@@ -40,5 +31,15 @@
       <button type="submit">Registrarse</button>
     </form>
   </section>
+
+  <!-- carga del navbar -->
+  <script type="module">
+    import { loadNavbar } from "../assets/js/navbar.js";
+    loadNavbar();
+  </script>
+
+  <!-- logout -->
+  <script src="../assets/js/logout.js"></script>
+
 </body>
 </html>

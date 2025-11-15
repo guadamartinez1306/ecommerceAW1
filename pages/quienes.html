@@ -7,18 +7,8 @@
 
 </head>
 <body>
-  <!-- Navbar -->
-  <nav>
-    <ul>
-      <li><a href="../index.html">Bienvenida</a></li>
-      <li><a href="productos.html">Productos</a></li>
-      <li><a href="quienes.html">Quiénes Somos</a></li>
-      <li><a href="formulario.html">Formulario / Logueo</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="registro.html">Registro</a></li>
-
-    </ul>
-  </nav>
+  <!-- navbar -->
+  <nav> </nav>
 
   <section class="quienes">
     <h1>Quiénes Somos</h1>
@@ -48,5 +38,14 @@
       <a href="productos.html" class="btn-hero">Ver Nuestros Productos</a>
     </div>
   </section>
+  <!--carga del navbar -->
+  <script type="module">
+    import { loadNavbar } from "../assets/js/navbar.js";
+    loadNavbar();
+  </script>
+
+  <!-- logout -->
+  <script src="../assets/js/logout.js"></script>
+
 </body>
 </html>
