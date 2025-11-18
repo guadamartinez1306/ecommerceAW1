@@ -297,4 +297,59 @@ button:hover {
   text-align: center;
 }
 
+/* --- CARRITO --- */
+
+.carrito-lista {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carrito-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.carrito-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carrito-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.carrito-item p {
+  margin: 3px 0;
+}
+
+.carrito-item button.eliminar {
+  margin-left: auto;
+  padding: 8px 12px;
+  background: #c62828;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.carrito-item button.eliminar:hover {
+  background: #b71c1c;
+}
+
+.total {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
 

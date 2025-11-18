@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (logoutBtn) {
     logoutBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      localStorage.removeItem("usuario");
+      sessionStorage.removeItem("usuario");
+
       window.location.href = "formulario.html";
     });
   }

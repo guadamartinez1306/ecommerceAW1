@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torta de Chocolate Belga",
+    "descripcion": "Bizcocho húmedo de cacao intenso con cobertura de ganache de chocolate belga, suave y aterciopelado.",
+    "imagen": "../assets/imagenes/tortabelga.webp",
+    "categoria": "tortas",
+    "precio": 6500,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Torta Oreo",
+    "descripcion": "Cremosa combinación de vainilla y galletas Oreo, con base crocante y cobertura de crema y trozos de galleta.",
+    "imagen": "../assets/imagenes/tortaoreo.webp",
+    "categoria": "tortas",
+    "precio": 6200,
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Torta de Nuez y Dulce de Leche",
+    "descripcion": "Bizcocho esponjoso con relleno de dulce de leche artesanal y trozos de nuez caramelizada.",
+    "imagen": "../assets/imagenes/tortanuezyddl.webp",
+    "categoria": "tortas",
+    "precio": 6800,
+    "stock": 6
+  },
+  {
+    "id": 4,
+    "nombre": "Tarta de Manzana Caramelizada",
+    "descripcion": "Masa crocante rellena con manzanas frescas, canela y caramelo casero.",
+    "imagen": "../assets/imagenes/tartamanzana.webp",
+    "categoria": "tortas",
+    "precio": 4800,
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "nombre": "Torta Selva Negra Clásica",
+    "descripcion": "Capas de bizcocho de chocolate, crema chantilly y cerezas, decorada con virutas de chocolate.",
+    "imagen": "../assets/imagenes/selvanegra.webp",
+    "categoria": "tortas",
+    "precio": 7000,
+    "stock": 4
+  },
+  {
+    "id": 6,
+    "nombre": "Torta Red Velvet",
+    "descripcion": "Clásico pastel rojo aterciopelado con suave crema de queso y un toque de vainilla.",
+    "imagen": "../assets/imagenes/redvelvet.webp",
+    "categoria": "tortas",
+    "precio": 6400,
+    "stock": 7
+  },
+  {
+    "id": 7,
+    "nombre": "Lemon Pie (Tarta de Limón y Merengue)",
+    "descripcion": "Base de masa quebrada con suave crema de limón y un merengue dorado y esponjoso.",
+    "imagen": "../assets/imagenes/lemonpie.webp",
+    "categoria": "tortas",
+    "precio": 5200,
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "nombre": "Chocotorta Argentina",
+    "descripcion": "Postre frío con capas de galletitas de chocolate y dulce de leche, con crema suave tipo mousse.",
+    "imagen": "../assets/imagenes/chocotorta.webp",
+    "categoria": "tortas",
+    "precio": 4300,
+    "stock": 9
+  },
+  {
+    "id": 9,
+    "nombre": "Cheesecake de Frutos Rojos",
+    "descripcion": "Base crocante de galletas con cremoso cheesecake horneado y topping de frutos rojos frescos.",
+    "imagen": "../assets/imagenes/cheesecakefrutosrojos.webp",
+    "categoria": "tortas",
+    "precio": 6000,
+    "stock": 6
+  },
+  {
+    "id": 10,
+    "nombre": "Torta de Zanahoria con Crema de Queso",
+    "descripcion": "Bizcocho húmedo con zanahoria rallada, nueces y especias, cubierto con frosting de queso.",
+    "imagen": "../assets/imagenes/carrotcake.webp",
+    "categoria": "tortas",
+    "precio": 5500,
+    "stock": 8
+  },
+  {
+    "id": 11,
+    "nombre": "Torta Rogel",
+    "descripcion": "Capas finas de masa hojaldrada con dulce de leche, coronadas con merengue italiano.",
+    "imagen": "../assets/imagenes/tortarogel.webp",
+    "categoria": "tortas",
+    "precio": 7200,
+    "stock": 3
+  },
+  {
+    "id": 12,
+    "nombre": "Torta Cabsha",
+    "descripcion": "Base crocante con dulce de leche y ganache de chocolate, inspirada en el clásico bocadito argentino.",
+    "imagen": "../assets/imagenes/tortacabsha.webp",
+    "categoria": "tortas",
+    "precio": 6300,
+    "stock": 6
+  },
+  {
+    "id": 13,
+    "nombre": "Vasitos de tiramisú",
+    "descripcion": "Postre italiano clásico con capas de café, mascarpone y cacao.",
+    "imagen": "../assets/imagenes/tiramisu.webp",
+    "categoria": "mini",
+    "precio": 2500,
+    "stock": 20
+  },
+  {
+    "id": 14,
+    "nombre": "Mini tartas de frutas",
+    "descripcion": "Mini tartas con crema pastelera y frutas frescas.",
+    "imagen": "../assets/imagenes/minitartafrutas.webp",
+    "categoria": "mini",
+    "precio": 4500,
+    "stock": 18
+  },
+  {
+    "id": 15,
+    "nombre": "Mini Cheesecakes individuales",
+    "descripcion": "Cremoso cheesecake con base de galletas y coulis de frutas.",
+    "imagen": "../assets/imagenes/minicheesecake.webp",
+    "categoria": "mini",
+    "precio": 4000,
+    "stock": 16
+  },
+  {
+    "id": 16,
+    "nombre": "Macarons surtidos",
+    "descripcion": "Macarons con rellenos variados: frambuesa, pistacho, vainilla y chocolate.",
+    "imagen": "../assets/imagenes/macarons.webp",
+    "categoria": "mini",
+    "precio": 3500,
+    "stock": 12
+  },
+  {
+    "id": 17,
+    "nombre": "Eclairs con crema pastelera",
+    "descripcion": "Masa choux rellena de crema pastelera y bañada en chocolate.",
+    "imagen": "../assets/imagenes/eclairs.webp",
+    "categoria": "mini",
+    "precio": 3000,
+    "stock": 14
+  },
+  {
+    "id": 18,
+    "nombre": "Cupcakes rellenos de frutas",
+    "descripcion": "Cupcakes con corazón de frutas naturales y cobertura cremosa.",
+    "imagen": "../assets/imagenes/cupcakesfrutas.webp",
+    "categoria": "mini",
+    "precio": 7500,
+    "stock": 15
+  },
+  {
+    "id": 19,
+    "nombre": "Cupcakes Tentación",
+    "descripcion": "Red velvet, vainilla con chips y chocolate intenso.",
+    "imagen": "../assets/imagenes/cupcakes.webp",
+    "categoria": "mini",
+    "precio": 8000,
+    "stock": 12
+  },
+  {
+    "id": 20,
+    "nombre": "Cookies con chips",
+    "descripcion": "Galletas crujientes por fuera y suaves por dentro.",
+    "imagen": "../assets/imagenes/cookies.webp",
+    "categoria": "mini",
+    "precio": 4000,
+    "stock": 25
+  },
+  {
+    "id": 21,
+    "nombre": "Brownies con nuez",
+    "descripcion": "Brownies húmedos de chocolate con trozos de nuez tostada.",
+    "imagen": "../assets/imagenes/brownie.webp",
+    "categoria": "mini",
+    "precio": 5500,
+    "stock": 18
+  },
+  {
+    "id": 22,
+    "nombre": "Alfajores de maicena",
+    "descripcion": "Alfajores con dulce de leche y coco rallado.",
+    "imagen": "../assets/imagenes/alfajormaicena.webp",
+    "categoria": "mini",
+    "precio": 3000,
+    "stock": 30
+  },
+  {
+    "id": 23,
+    "nombre": "Alfajores bañados en chocolate",
+    "descripcion": "Alfajores rellenos y cubiertos en chocolate semiamargo.",
+    "imagen": "../assets/imagenes/alfajoresartesanales.webp",
+    "categoria": "mini",
+    "precio": 3500,
+    "stock": 22
+  },
+  {
+    "id": 24,
+    "nombre": "Trufas de chocolate",
+    "descripcion": "Trufas rellenas de ganache y cubiertas de cacao.",
+    "imagen": "../assets/imagenes/trufas.webp",
+    "categoria": "mini",
+    "precio": 3500,
+    "stock": 20
+  }
+]
+
