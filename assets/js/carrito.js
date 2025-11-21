@@ -1,4 +1,3 @@
-// /assets/js/carrito.js
 document.addEventListener("DOMContentLoaded", () => {
 
   const contenedor = document.getElementById("carrito-contenedor");
@@ -48,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (totalElemento) totalElemento.textContent = "Total: $" + total;
   }
 
-  // Delegación de eventos: manejamos clicks en botones "Eliminar"
+  
   contenedor.addEventListener("click", (e) => {
     const btn = e.target.closest(".eliminar");
     if (!btn) return;
@@ -77,7 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
     cargarCarrito();
   }
 
-  // Inicializamos
   cargarCarrito();
 });
-
